@@ -1,56 +1,276 @@
 {
-    "crush": [
-        { "q": "How often do you text?", "opts": [ {"t":"Every single day", "v":4}, {"t":"A few times a week", "v":2}, {"t":"Only when one of us needs something", "v":0}, {"t":"We don't text", "v":-2} ] },
-        { "q": "Eye Contact", "opts": [ {"t":"We lock eyes all the time", "v":4}, {"t":"Frequent glances", "v":2}, {"t":"Normal, friendly eye contact", "v":1}, {"t":"They avoid looking at me", "v":-3} ] },
-        { "q": "Physical Touch", "opts": [ {"t":"Lots of playful touching/hugging", "v":4}, {"t":"Occasional hugs", "v":2}, {"t":"Strictly personal space", "v":0}, {"t":"They pull away if I get close", "v":-4} ] },
-        { "q": "Who initiates conversations?", "opts": [ {"t":"We both do equally", "v":4}, {"t":"They usually text me first", "v":3}, {"t":"I always have to start it", "v":-2}, {"t":"Neither of us really initiates", "v":-1} ] },
-        { "q": "Mutual Friends?", "opts": [ {"t":"We share the exact same friend group", "v":3}, {"t":"We have a few mutuals", "v":2}, {"t":"Completely different social circles", "v":0}, {"t":"Our friends don't like each other", "v":-3} ] },
-        { "q": "Late Night Talks", "opts": [ {"t":"We stay up talking/texting late", "v":4}, {"t":"Sometimes on weekends", "v":2}, {"t":"Never, we only talk during the day", "v":0}, {"t":"I'm left on delivered overnight", "v":-2} ] },
-        { "q": "Inside Jokes", "opts": [ {"t":"We have so many", "v":4}, {"t":"One or two", "v":2}, {"t":"Not really", "v":0}, {"t":"They don't understand my humor", "v":-2} ] },
-        { "q": "Hanging out 1-on-1", "opts": [ {"t":"All the time", "v":4}, {"t":"Occasionally", "v":2}, {"t":"Only in groups", "v":-1}, {"t":"They cancel when it's just us", "v":-3} ] },
-        { "q": "Social Media Interactions", "opts": [ {"t":"They like and reply to everything I post", "v":3}, {"t":"They like my posts sometimes", "v":1}, {"t":"They watch my stories but don't interact", "v":0}, {"t":"They don't follow me", "v":-2} ] },
-        { "q": "Do they remember small details?", "opts": [ {"t":"Yes, they bring up things I mentioned weeks ago", "v":4}, {"t":"Sometimes", "v":2}, {"t":"Rarely", "v":0}, {"t":"They constantly forget my birthday/details", "v":-3} ] },
-        { "q": "Teasing / Flirting", "opts": [ {"t":"Constant playful teasing and flirting", "v":4}, {"t":"A little bit of banter", "v":2}, {"t":"Strictly platonic and polite", "v":-1}, {"t":"It feels like talking to a sibling", "v":-3} ] },
-        { "q": "Current Relationship Status", "opts": [ {"t":"Both completely single and looking", "v":4}, {"t":"One of us just got out of a relationship", "v":1}, {"t":"One of us is in a 'complicated' situation", "v":-2}, {"t":"One of us is taken", "v":-5} ] },
-        { "q": "Do they talk about other people?", "opts": [ {"t":"Never, they give me full attention", "v":3}, {"t":"Only celebrity crushes", "v":1}, {"t":"They ask me for dating advice", "v":-4}, {"t":"They constantly talk about their ex", "v":-5} ] },
-        { "q": "Vibe when you walk in the room", "opts": [ {"t":"Their face instantly lights up", "v":4}, {"t":"They smile and say hi", "v":2}, {"t":"They don't really notice", "v":-1}, {"t":"They look annoyed", "v":-4} ] },
-        { "q": "Common Interests", "opts": [ {"t":"We are passionate about the same things", "v":3}, {"t":"A few shared hobbies", "v":2}, {"t":"Nothing in common", "v":-1}, {"t":"They actively dislike my hobbies", "v":-2} ] },
-        { "q": "Deep Conversations", "opts": [ {"t":"We talk about life, the future, and feelings", "v":4}, {"t":"Sometimes we get a little deep", "v":2}, {"t":"Strictly small talk", "v":0}, {"t":"They avoid serious topics entirely", "v":-2} ] },
-        { "q": "Compliments", "opts": [ {"t":"They compliment my looks and personality", "v":4}, {"t":"They compliment my outfits sometimes", "v":2}, {"t":"They never compliment me", "v":0}, {"t":"They give me backhanded compliments", "v":-3} ] },
-        { "q": "Proximity", "opts": [ {"t":"They always find a way to sit/stand next to me", "v":4}, {"t":"We end up near each other sometimes", "v":2}, {"t":"Random seating", "v":0}, {"t":"They actively keep their distance", "v":-2} ] },
-        { "q": "Future Plans", "opts": [ {"t":"They mention doing things together in the future", "v":4}, {"t":"We talk about vague future hangouts", "v":2}, {"t":"No talk of the future", "v":0}, {"t":"They talk about moving far away", "v":-2} ] },
-        { "q": "How they act around your friends", "opts": [ {"t":"They try really hard to impress them", "v":3}, {"t":"Friendly and polite", "v":2}, {"t":"Quiet and reserved", "v":0}, {"t":"They ignore my friends", "v":-2} ] },
-        { "q": "Jealousy Check", "opts": [ {"t":"They act slightly jealous if I talk to others", "v":3}, {"t":"They don't seem to care at all", "v":0}, {"t":"They actively try to set me up with others", "v":-5} ] },
-        { "q": "Support System", "opts": [ {"t":"They are the first person to cheer me up", "v":4}, {"t":"They say 'sorry that happened'", "v":1}, {"t":"They leave me on read when I vent", "v":-3} ] },
-        { "q": "Their friends' behavior", "opts": [ {"t":"Their friends smirk or leave when I'm around", "v":4}, {"t":"Their friends treat me normally", "v":1}, {"t":"Their friends don't know who I am", "v":-2} ] },
-        { "q": "Double Texting", "opts": [ {"t":"They double text me often", "v":3}, {"t":"We just text normally", "v":1}, {"t":"If I don't text, we don't speak for weeks", "v":-4} ] },
-        { "q": "Gut Feeling", "opts": [ {"t":"I know they like me back", "v":5}, {"t":"I'm getting mixed signals", "v":1}, {"t":"I think I'm deep in the friendzone", "v":-3}, {"t":"I'm completely delusional", "v":-5} ] }
-    ],
-    "couples": [
-        { "q": "Handling Arguments", "opts": [ {"t":"Communicate calmly and resolve quickly", "v":4}, {"t":"Need space before talking", "v":2}, {"t":"Yelling, drama, and silent treatments", "v":-4}, {"t":"One talks, one shuts down", "v":-3} ] },
-        { "q": "Ideal Weekend Energy", "opts": [ {"t":"Both want to relax at home", "v":3}, {"t":"Both want to go out and party", "v":3}, {"t":"One stays in, one goes out", "v":0}, {"t":"We compromise every weekend", "v":2} ] },
-        { "q": "Financial Harmony", "opts": [ {"t":"Both save strictly for the future", "v":3}, {"t":"Both love to splurge and live now", "v":2}, {"t":"Extreme Saver vs. Extreme Spender", "v":-3}, {"t":"We balance our finances together", "v":3} ] },
-        { "q": "Future Goals", "opts": [ {"t":"Aligned perfectly on the big picture", "v":5}, {"t":"Still figuring it out together", "v":2}, {"t":"Moving in completely opposite directions", "v":-4} ] },
-        { "q": "Love Language (Giving)", "opts": [ {"t":"Words of Affirmation", "v":2}, {"t":"Physical Touch", "v":2}, {"t":"Acts of Service", "v":2}, {"t":"Quality Time / Gifts", "v":2} ] },
-        { "q": "Love Language (Receiving)", "opts": [ {"t":"Matches our giving language exactly", "v":4}, {"t":"Different, but we adapt", "v":2}, {"t":"We fail to love each other correctly", "v":-3} ] },
-        { "q": "Trust & Security", "opts": [ {"t":"Completely secure and trusting", "v":4}, {"t":"A tiny bit protective (cute)", "v":1}, {"t":"Highly jealous and toxic", "v":-4}, {"t":"Secretly checks each other's phones", "v":-5} ] },
-        { "q": "Household Chores", "opts": [ {"t":"Split 50/50 naturally", "v":4}, {"t":"We make a strict chore chart", "v":2}, {"t":"One person feels like the maid", "v":-4} ] },
-        { "q": "Travel Style", "opts": [ {"t":"Spontaneous adventures everywhere", "v":3}, {"t":"Strictly planned itineraries", "v":3}, {"t":"Planner vs. Go-with-the-flow (works out)", "v":2}, {"t":"Travel together causes huge stress", "v":-3} ] },
-        { "q": "Family Dynamics", "opts": [ {"t":"Love hanging with both families", "v":3}, {"t":"Both keep family at a distance", "v":2}, {"t":"Clashing family values/disapproval", "v":-3} ] },
-        { "q": "Friend Groups", "opts": [ {"t":"Our friends blend into one mega-group", "v":4}, {"t":"We keep friends separate but friendly", "v":2}, {"t":"Our friends secretly hate each other", "v":-3} ] },
-        { "q": "Apologizing", "opts": [ {"t":"Quick to admit faults and say sorry", "v":4}, {"t":"Takes a while to cool down first", "v":1}, {"t":"Neither ever wants to be wrong", "v":-4} ] },
-        { "q": "Sleep Schedule", "opts": [ {"t":"Both morning people", "v":3}, {"t":"Both night owls", "v":3}, {"t":"Opposite schedules, but respect it", "v":1}, {"t":"Opposites, and we wake each other up", "v":-2} ] },
-        { "q": "Diet & Food", "opts": [ {"t":"We share the exact same diet", "v":3}, {"t":"We happily cook different things", "v":2}, {"t":"One constantly judges the other's diet", "v":-3} ] },
-        { "q": "Social Battery", "opts": [ {"t":"Both highly extroverted", "v":3}, {"t":"Both highly introverted", "v":3}, {"t":"Extrovert perfectly balances the introvert", "v":2}, {"t":"Social styles cause massive friction", "v":-3} ] },
-        { "q": "Handling Stress", "opts": [ {"t":"We comfort each other through it", "v":4}, {"t":"We give each other space to process", "v":2}, {"t":"We take our stress out on each other", "v":-4} ] },
-        { "q": "Kids/Future Family", "opts": [ {"t":"Exact same timeline and number", "v":5}, {"t":"Open to whatever happens", "v":2}, {"t":"One wants them, one absolutely doesn't", "v":-5} ] },
-        { "q": "Cleanliness", "opts": [ {"t":"Both extremely neat", "v":3}, {"t":"Both comfortably messy", "v":2}, {"t":"Neat freak vs. absolute Slob", "v":-3} ] },
-        { "q": "Celebrating Anniversaries", "opts": [ {"t":"Huge romantic gestures", "v":3}, {"t":"Casual, cozy dinner date", "v":2}, {"t":"One cares way more than the other", "v":-3} ] },
-        { "q": "Dealing with Exes", "opts": [ {"t":"Both completely blocked and moved on", "v":4}, {"t":"Friendly, but strict boundaries", "v":1}, {"t":"Still talk to them daily (red flag)", "v":-4} ] },
-        { "q": "Personal Space", "opts": [ {"t":"We are glued at the hip", "v":3}, {"t":"We love our highly independent time", "v":3}, {"t":"Clingy vs. Avoidant attachment styles", "v":-4} ] },
-        { "q": "Work Ethic", "opts": [ {"t":"Both highly ambitious hustlers", "v":3}, {"t":"Both prioritize chilling and living", "v":3}, {"t":"Workaholic vs. Complete Slacker", "v":-3} ] },
-        { "q": "Surprises & Gifts", "opts": [ {"t":"Love giving and receiving them", "v":3}, {"t":"Keep it simple/no gifts needed", "v":2}, {"t":"One expects grand gestures, one forgets", "v":-3} ] },
-        { "q": "Sense of Humor", "opts": [ {"t":"We laugh at the exact same things", "v":3}, {"t":"Different, but we make it work", "v":1}, {"t":"We don't get each other's jokes", "v":-2} ] },
-        { "q": "Final Reality Check", "opts": [ {"t":"I want to spend my life with them", "v":5}, {"t":"I am very happy right now", "v":3}, {"t":"We are having a rough patch", "v":-1}, {"t":"I think about breaking up often", "v":-5} ] }
-    ]
+  "crush": [
+    {
+      "q": "How clearly have they expressed romantic interest?",
+      "opts": [
+        { "t": "They have directly and freely said they are interested", "v": 4 },
+        { "t": "They have suggested a date or clearly flirted with me", "v": 2 },
+        { "t": "Their intentions are unclear", "v": 0 },
+        { "t": "They have said they are not interested", "v": -4 }
+      ]
+    },
+    {
+      "q": "How mutual is your communication?",
+      "opts": [
+        { "t": "We both initiate and engage regularly", "v": 3 },
+        { "t": "We both engage, though one initiates more", "v": 1 },
+        { "t": "I usually initiate and receive brief responses", "v": -1 },
+        { "t": "They rarely or never respond", "v": -3 }
+      ]
+    },
+    {
+      "q": "Do they choose to spend time with you?",
+      "opts": [
+        { "t": "Yes, and we both suggest plans", "v": 3 },
+        { "t": "Sometimes, usually in a group", "v": 1 },
+        { "t": "Plans are usually one-sided or uncertain", "v": -1 },
+        { "t": "They decline and do not suggest alternatives", "v": -3 }
+      ]
+    },
+    {
+      "q": "How well do you respect each other's personal boundaries?",
+      "opts": [
+        { "t": "Boundaries are communicated and consistently respected", "v": 4 },
+        { "t": "Boundaries generally seem respected", "v": 2 },
+        { "t": "We have not discussed boundaries", "v": 0 },
+        { "t": "A stated boundary has been ignored or pressured", "v": -4 }
+      ]
+    },
+    {
+      "q": "What best describes physical contact between you?",
+      "opts": [
+        { "t": "Any contact is clearly mutual and welcome", "v": 3 },
+        { "t": "We have little or no contact, and that is comfortable", "v": 1 },
+        { "t": "I am unsure whether contact is welcome", "v": 0 },
+        { "t": "Someone pulls away or has asked for space", "v": -4 }
+      ]
+    },
+    {
+      "q": "Do they show curiosity about you as a person?",
+      "opts": [
+        { "t": "We both ask questions and remember meaningful details", "v": 3 },
+        { "t": "Sometimes", "v": 1 },
+        { "t": "Our conversations stay mostly surface-level", "v": 0 },
+        { "t": "The interest feels consistently one-sided", "v": -2 }
+      ]
+    },
+    {
+      "q": "Can you share different opinions comfortably?",
+      "opts": [
+        { "t": "Yes, we listen and remain respectful", "v": 3 },
+        { "t": "Usually, with occasional tension", "v": 1 },
+        { "t": "We tend to avoid differences", "v": 0 },
+        { "t": "Differences lead to ridicule, pressure, or hostility", "v": -3 }
+      ]
+    },
+    {
+      "q": "Are both of you currently available for a relationship?",
+      "opts": [
+        { "t": "Yes, and both are open to dating", "v": 3 },
+        { "t": "Both are single, but interest in dating is unclear", "v": 0 },
+        { "t": "Someone needs time after a recent relationship", "v": -1 },
+        { "t": "Someone is partnered or has said they are unavailable", "v": -4 }
+      ]
+    },
+    {
+      "q": "Have you discussed what each of you is looking for?",
+      "opts": [
+        { "t": "Yes, and our intentions appear compatible", "v": 4 },
+        { "t": "We have discussed it briefly", "v": 2 },
+        { "t": "Not yet", "v": 0 },
+        { "t": "Our stated intentions do not align", "v": -3 }
+      ]
+    },
+    {
+      "q": "How do you feel after spending time together?",
+      "opts": [
+        { "t": "Generally comfortable, respected, and energized", "v": 3 },
+        { "t": "Mostly positive, with normal uncertainty", "v": 1 },
+        { "t": "Often confused or anxious", "v": -1 },
+        { "t": "Pressured, unsafe, or diminished", "v": -4 }
+      ]
+    },
+    {
+      "q": "Can both of you say no without negative consequences?",
+      "opts": [
+        { "t": "Yes, a no is accepted without pressure", "v": 4 },
+        { "t": "Probably, though it has not come up clearly", "v": 1 },
+        { "t": "One of us reacts poorly to disappointment", "v": -2 },
+        { "t": "A no leads to guilt, anger, or repeated pressure", "v": -4 }
+      ]
+    },
+    {
+      "q": "How balanced is the effort in the connection?",
+      "opts": [
+        { "t": "Effort feels mutual and sustainable", "v": 3 },
+        { "t": "It varies, but both make an effort", "v": 1 },
+        { "t": "One person does most of the work", "v": -1 },
+        { "t": "It continues only through one person's effort", "v": -3 }
+      ]
+    },
+    {
+      "q": "How are misunderstandings handled?",
+      "opts": [
+        { "t": "We clarify them calmly and take responsibility", "v": 3 },
+        { "t": "We usually work through them", "v": 1 },
+        { "t": "They often remain unresolved", "v": -1 },
+        { "t": "They lead to insults, threats, or manipulation", "v": -4 }
+      ]
+    },
+    {
+      "q": "How much of your impression comes from direct interaction?",
+      "opts": [
+        { "t": "Mostly from clear words and consistent actions", "v": 3 },
+        { "t": "From a mix of interaction and interpretation", "v": 1 },
+        { "t": "Mostly from social media or other people's guesses", "v": -1 },
+        { "t": "Mostly from assumptions despite contrary evidence", "v": -3 }
+      ]
+    },
+    {
+      "q": "Would a direct, low-pressure conversation be appropriate?",
+      "opts": [
+        { "t": "Yes, and I can accept either answer", "v": 3 },
+        { "t": "Maybe, with care and no expectations", "v": 1 },
+        { "t": "Not yet; more trust or context is needed", "v": 0 },
+        { "t": "No; they have declined or asked for distance", "v": -4 }
+      ]
+    }
+  ],
+  "couples": [
+    {
+      "q": "How do you handle disagreements?",
+      "opts": [
+        { "t": "We listen, stay respectful, and work toward repair", "v": 4 },
+        { "t": "We may need space, then return to the issue", "v": 2 },
+        { "t": "Problems are often avoided or left unresolved", "v": -1 },
+        { "t": "Disagreements involve insults, threats, or intimidation", "v": -4 }
+      ]
+    },
+    {
+      "q": "Can each person express needs and boundaries?",
+      "opts": [
+        { "t": "Yes, and both respond with care", "v": 4 },
+        { "t": "Usually, though some topics are difficult", "v": 2 },
+        { "t": "Needs are often guessed or left unspoken", "v": -1 },
+        { "t": "A boundary is ignored, mocked, or punished", "v": -4 }
+      ]
+    },
+    {
+      "q": "How is consent treated in the relationship?",
+      "opts": [
+        { "t": "It is clear, ongoing, freely given, and can be withdrawn", "v": 4 },
+        { "t": "We respect consent but could communicate more clearly", "v": 2 },
+        { "t": "We often rely on assumptions", "v": -1 },
+        { "t": "Someone is pressured, guilted, or ignored", "v": -4 }
+      ]
+    },
+    {
+      "q": "How would you describe trust between you?",
+      "opts": [
+        { "t": "Trust is supported by honesty and consistent behavior", "v": 4 },
+        { "t": "Trust is growing, with open discussion of concerns", "v": 2 },
+        { "t": "Suspicion or secrecy causes recurring tension", "v": -2 },
+        { "t": "There is surveillance, control, or repeated dishonesty", "v": -4 }
+      ]
+    },
+    {
+      "q": "How balanced are important decisions?",
+      "opts": [
+        { "t": "Both voices have meaningful and equal weight", "v": 4 },
+        { "t": "We divide decisions in a way both accept", "v": 2 },
+        { "t": "One person usually gives in", "v": -1 },
+        { "t": "One person controls decisions", "v": -4 }
+      ]
+    },
+    {
+      "q": "How do you support each other's independence?",
+      "opts": [
+        { "t": "We encourage friendships, interests, and time apart", "v": 3 },
+        { "t": "We are learning to balance closeness and independence", "v": 1 },
+        { "t": "Time apart regularly causes guilt or conflict", "v": -2 },
+        { "t": "One person restricts the other's contacts or activities", "v": -4 }
+      ]
+    },
+    {
+      "q": "How is emotional support shared?",
+      "opts": [
+        { "t": "We listen and support each other without losing boundaries", "v": 3 },
+        { "t": "Support is generally mutual", "v": 1 },
+        { "t": "One person provides most of the support", "v": -1 },
+        { "t": "Feelings are dismissed or used against someone", "v": -4 }
+      ]
+    },
+    {
+      "q": "How do you approach money decisions that affect both of you?",
+      "opts": [
+        { "t": "We are transparent and agree on shared priorities", "v": 3 },
+        { "t": "Our styles differ, but we negotiate workable plans", "v": 2 },
+        { "t": "Money is a recurring unresolved conflict", "v": -2 },
+        { "t": "There is hidden spending or financial control", "v": -4 }
+      ]
+    },
+    {
+      "q": "How are shared responsibilities handled?",
+      "opts": [
+        { "t": "They are divided fairly based on capacity and agreement", "v": 3 },
+        { "t": "The balance changes, but we discuss it", "v": 2 },
+        { "t": "One person regularly carries an unfair share", "v": -2 },
+        { "t": "Requests for a fairer balance are dismissed", "v": -4 }
+      ]
+    },
+    {
+      "q": "How aligned are your major future goals?",
+      "opts": [
+        { "t": "We have discussed them and agree on the essentials", "v": 4 },
+        { "t": "Some details differ, but compromise seems possible", "v": 2 },
+        { "t": "Important goals remain undiscussed", "v": 0 },
+        { "t": "A core goal conflicts with no acceptable compromise", "v": -4 }
+      ]
+    },
+    {
+      "q": "How do you handle differences in lifestyle or personality?",
+      "opts": [
+        { "t": "We respect differences and find practical compromises", "v": 3 },
+        { "t": "Most differences are manageable", "v": 1 },
+        { "t": "Differences create frequent resentment", "v": -2 },
+        { "t": "One person pressures the other to change", "v": -4 }
+      ]
+    },
+    {
+      "q": "How are mistakes and apologies handled?",
+      "opts": [
+        { "t": "We take responsibility, apologize, and change behavior", "v": 4 },
+        { "t": "Repair may take time, but both try", "v": 2 },
+        { "t": "Apologies happen without meaningful change", "v": -1 },
+        { "t": "Blame, denial, or retaliation prevents repair", "v": -4 }
+      ]
+    },
+    {
+      "q": "Can both people maintain privacy without secrecy?",
+      "opts": [
+        { "t": "Yes, privacy and transparency are mutually understood", "v": 3 },
+        { "t": "Mostly, though expectations need clarification", "v": 1 },
+        { "t": "Privacy often causes suspicion", "v": -1 },
+        { "t": "Devices or messages are checked without permission", "v": -4 }
+      ]
+    },
+    {
+      "q": "How safe does the relationship feel?",
+      "opts": [
+        { "t": "Both feel physically and emotionally safe", "v": 4 },
+        { "t": "Generally safe, with concerns we can discuss", "v": 1 },
+        { "t": "One person often feels anxious or diminished", "v": -3 },
+        { "t": "There are threats, coercion, violence, or fear", "v": -4 }
+      ]
+    },
+    {
+      "q": "What best describes the relationship overall?",
+      "opts": [
+        { "t": "Mutual, respectful, supportive, and sustainable", "v": 4 },
+        { "t": "Mostly healthy, with areas we are actively improving", "v": 2 },
+        { "t": "Recurring problems need honest attention", "v": -1 },
+        { "t": "The relationship feels controlling, unsafe, or harmful", "v": -4 }
+      ]
+    }
+  ]
 }
